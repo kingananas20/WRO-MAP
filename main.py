@@ -1,13 +1,15 @@
 import pygame, sys
 from math import sqrt, degrees, pi, atan2
 
-
 pygame.init()
 
 #Show map
 image = pygame.image.load("map.jpg")
 witdhImage, heightImage = image.get_size()
 scale = heightImage / witdhImage
+
+#Robot
+picture = pygame.image.load("robot.jpg")
 
 #Game window
 width = 1400
